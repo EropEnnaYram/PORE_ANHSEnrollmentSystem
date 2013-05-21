@@ -1,0 +1,22 @@
+ul:first{
+	text-decoration: none;
+	background-color: black;
+}
+#tbl_subjects tr:hover{
+	background-color: blue;
+}
+#requirements{
+	color: black;
+	margin: 100px 100px 100px 100px;
+}
+#reqForNewStuds{
+	color: black;
+	margin: auto auto auto 95px;
+}
+#reqForOldStuds{
+	color: black;
+	margin: auto auto auto 95px;
+}
+/*#register_div{
+	background-color: magenta;
+}

@@ -1,0 +1,24 @@
+#delete_confirm{
+	display: none;
+}
+#edit_confirm{
+	display: none;
+}
+/*#table_subjects tr:hover{
+	background-color: red;
+}
+#table_teachers tr:hover{
+	background-color: silver;
+}
+#table_sections tr:hover{
+	background-color: pink;
+}*/
+.ui-menu {
+ position: absolute; 
+ width:10px; 
+}
+body{
+}
+#profile{
+	margin:auto;
+}

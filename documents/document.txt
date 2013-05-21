@@ -1,0 +1,38 @@
+Name Of System:ALANGALANG NATIONAL HIGH SCHOOL ONLINE ENROLLMENT SYSTEM
+Description:
+  -A system designed to perform the process involved in registration, advising, assessments, and payments of students as well as scheduling of classes for highschool students via online or by the use of computers,laptop and many more..
+  -Advantages of High School Online Enrollment System:
+      -Efficient and Faster Enrollment Operation also a Long Term Save Data Records of high school students.
+Features:
+  -Registration system with registration form(creating your own account)
+      -can register new users..
+  -Login system
+      -users that already have an account,can login to the system
+      -admin 
+  -Logout system
+    -logged-in users should be able to logout the system
+    -admin
+  -Subjects
+        add(only the admin)
+        delete(only the admin)
+        edit(only the admin)
+        save(only the admin)
+        search(only the admin)
+        view table(users,admin)
+  -Teachers(only the admin)
+        add(only the admin)
+        delete(only the admin)
+        edit(only the admin)
+        save(only the admin)
+        search(only the admin)
+        view table(users,admin)
+  -Grade and Sections(only the admin)
+        add(only the admin)
+        delete(only the admin)
+        edit(only the admin)
+        save(only the admin)
+        search(only the admin)
+        view table(users,admin)
+  -Students
+        add(only the admin)
+        view tables(only the admin)

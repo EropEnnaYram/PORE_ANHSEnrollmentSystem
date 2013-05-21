@@ -1,0 +1,76 @@
+$(document).ready(function(){
+	$("#schedules").hide();
+
+     $("#home").click(function(){
+	    $('#vission_mission').hide();
+	    $('#teachers').hide();
+	    
+	});
+	 $("#about_us").click(function(){
+	    $("#vision_mision").show();
+	    $("#illustrator").hide();
+	    $("#subjects_teachers").hide();
+	    $("#teachers_staff").hide();
+	    $("#sections_name").hide();
+	    $("#students").hide();
+	});
+	$("#vision_mision").click(function(){
+	    $("#vission_mission").show();
+	    $("#teachers").hide();
+	    $("#subjects").hide();
+	    $("#sections").hide();
+	    $("#students").hide();
+	    $("#time").hide();
+	    $("#schedules").hide();
+	});
+	$("#subjects_teachers").click(function(){
+	  $("#subjects").show();
+	  $("#sections").hide();
+	  $("#teachers").hide();
+	  $("#vission_mission").hide();
+	  $("#students").hide();
+	  $("#time").hide();
+	  $("#schedules").hide();
+
+	});
+	$("#teachers_staff").click(function(){
+		$("#teachers").show();
+		$("#subjects").hide();
+		$("#vission_mission").hide();
+		$("#sections").hide();
+		$("#students").hide();
+		$("#time").hide();
+		$("#schedules").hide();
+	});
+	$("#sections_name").click(function(){
+		$("#sections").show();
+		$("#subjects").hide();
+		$("#teachers").hide();
+		$("#vission_mission").hide();
+		$("#students").hide();
+		$("#time").hide();
+		$("#schedules").hide();
+	});
+	$("#students_name").click(function(){
+		$("#students").show();
+		$("#sections").hide();
+		$("#subjects").hide();
+		$("#teachers").hide();
+		$("#vission_mission").hide();
+		$("#time").hide();
+		$("#schedules").hide();
+
+	});
+	$("#students_schedules").click(function(){
+		$("#students_sched").show();
+	});
+	$("#students_sched").click(function(){
+		$("#schedules").show();
+		$("#students").hide();
+		$("#sections").hide();
+		$("#subjects").hide();
+		$("#teachers").hide();
+		$("#vission_mission").hide();
+
+	});
+});
